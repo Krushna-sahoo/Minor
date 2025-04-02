@@ -1,3 +1,8 @@
-opencv-python-headless
-facenet-pytorch
+torch
+torchvision
+torchaudio
+opencv-python
 numpy
+efficientnet-pytorch
+onnx
+onnxruntime
