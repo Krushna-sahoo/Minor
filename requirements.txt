@@ -6,3 +6,8 @@ numpy
 efficientnet-pytorch
 onnx
 onnxruntime
+fastapi 
+uvicorn
+python-multipart
+opencv-python-headless
+pillow
