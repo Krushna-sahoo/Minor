@@ -78,7 +78,7 @@ def preprocess_video(video_path, frames_per_video=FRAMES_PER_VIDEO):
 # =======================
 # 📌 Inference Endpoint
 # =======================
-@app.post("/predict/")
+@app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     try:
         # Save the uploaded video to a temporary file
